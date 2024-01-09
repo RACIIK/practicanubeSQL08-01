@@ -22,6 +22,7 @@
           <th>Telefono Fijo</th>
           <th>Telefono Movil</th>
           <th>Correo Electronico</th>
+          <th>Distrito</th>
           
         </tr>
       </thead>
@@ -40,6 +41,7 @@
          "</td><td>" . $fila->telefijo .
          "</td><td>" . $fila->telemovil .
          "</td><td>" . $fila->email .
+          "</td><td>" . $fila->distrito .
          "</td></tr>";
        }
        ?>
